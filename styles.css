@@ -21,7 +21,7 @@ body {
 
   animation: mover 12s linear infinite;
 
-  font-size: 28px;
+  font-size: 24px;
 
   color: #ff1493;
 
@@ -155,4 +155,13 @@ h1, h2, p {
 
     grid-template-columns: 1fr;
   }
+}
+@media (max-width: 480px) {
+
+  #marquesina {
+
+    font-size: 16px;
+
+  }
+
 }
